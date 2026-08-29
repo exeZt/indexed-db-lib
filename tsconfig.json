@@ -1,16 +1,18 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es5", // Should be es5 for iOS compability
+    "ignoreDeprecations": "6.0", // For target
     "module": "commonjs",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": true,
     "declaration": true,
+    "rootDir": ".",
     "declarationDir": "dist/@types/",
     "outDir": "dist",
     "paths": {
-      "@/*": [ "src/*" ]
+      "@/*": [ "./src/*" ]
     }
   },
   "include": ["src"],

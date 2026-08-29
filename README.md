@@ -1,6 +1,7 @@
 ## Indexed db usage library
 
 ### Would be used to simply communicate with indexedb
+Was taken from old project (chat application (not avail))
 
 **Type specification**
 ```typescript
